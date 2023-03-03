@@ -1,10 +1,7 @@
 import {
     IoCodeWorking,
     IoLogoGithub,
-    IoLogoYoutube,
-    IoLogoTwitter,
     IoLogoLinkedin,
-    IoLogoWhatsapp,
     IoLogoFacebook,
     IoLogoInstagram,
   } from "react-icons/io5";
@@ -13,6 +10,16 @@ import {
   import keeper from "./images/keeper.png"
   import news from "./images/News.jpg"
   import notes from "./images/Notes.jpg"
+  import React from 'react'
+import html from "./images/html.png"
+import css from "./images/css.png"
+import js from "./images/js.png"
+import firebase from "./images/firebase.png"
+import tailwind from "./images/tailwind.png"
+import react from "./images/react.png"
+import java from "./images/java.png"
+import mongo from "./images/mongo.png"
+import git from "./images/git.png"
 
   
   export const Experience = [
@@ -45,6 +52,7 @@ import {
     }
     
   ];
+
   
   export const Projects = [
     {
@@ -88,6 +96,67 @@ import {
       link : "https://koushik-16.github.io/Keeper/"
     }
   ];
+
+
+  export const techs = () => [
+    {
+        id: 1,
+        scr: html,
+        title: 'HTML',
+        style: 'shadow-orange-500'
+    },
+    {
+        id: 2,
+        scr: css,
+        title: 'CSS',
+        style: 'shadow-blue-500'
+    },
+    {
+        id: 3,
+        scr: js,
+        title: 'Javascript',
+        style: 'shadow-yellow-500'
+    },
+    {
+        id: 4,
+        scr: react,
+        title: 'React.js',
+        style: 'shadow-blue-600'
+    },
+    {
+        id: 5,
+        scr: tailwind,
+        title: 'Tailwind',
+        style: 'shadow-sky-500'
+    },
+    {
+        id: 6,
+        scr: firebase,
+        title: 'Firebase',
+        style: 'shadow-yellow-800'
+    },
+    {
+        id: 7,
+        scr: java,
+        title: 'Java',
+        style: 'shadow-red-600'
+    },
+
+    {
+        id: 8,
+        scr: mongo,
+        title: 'Mongo DB',
+        style: 'shadow-green-800'
+    }
+    ,
+    {
+        id: 9,
+        scr: git,
+        title: 'Git',
+        style: 'shadow-red-600'
+    }
+
+];
   
   export const SocialLinks = [
     {
