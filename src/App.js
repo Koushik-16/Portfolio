@@ -4,7 +4,6 @@ import { IoMenu } from "react-icons/io5";
 import { AnimatePresence, motion } from "framer-motion";
 import 'react-vertical-timeline-component/style.min.css';
 import styles from "./index.css"
-
 import Footer from './Footer';
 import Skills from './Skills';
 import Home from './Home';

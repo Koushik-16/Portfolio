@@ -9,6 +9,7 @@ import {
   import codepen from "./images/Codepen.png"
   import keeper from "./images/keeper.png"
   import news from "./images/News.jpg"
+  import Chat from "./images/Chat.png"
   import notes from "./images/Notes.jpg"
   import React from 'react'
 import html from "./images/html.png"
@@ -63,8 +64,35 @@ import git from "./images/git.png"
       github: "https://github.com/Koushik-16/Drop-it",
       link : "https://dropit-9e59f.web.app/"
     },
+
     {
       id: 2,
+      name: "Quick Chat",
+      imageSrc: Chat,
+      techs: "React.Js, Firebase",
+      github: "https://github.com/Koushik-16/Chat-app",
+      link : "https://chatapp-e673a.web.app/"
+    },
+    
+    {
+      id: 3,
+      name: "Codepen Clone",
+      imageSrc: codepen,
+      techs: "React Js, JavaScript",
+      github: "https://github.com/Koushik-16/Codepen-Clone",
+      link : "https://codepen-fab85.web.app/"
+    },
+    {
+      id: 4,
+      name: "Keeper",
+      imageSrc: keeper,
+      techs: "React Js , JavaScript",
+      github: "https://github.com/Koushik-16/Keeper",
+      link : "https://koushik-16.github.io/Keeper/"
+    }
+    ,
+    {
+      id: 5,
       name: "Notes Application",
       imageSrc: notes,
       techs: "Android Studio, Firebase,Java",
@@ -72,29 +100,15 @@ import git from "./images/git.png"
       link : "https://drive.google.com/file/d/1ogOIsaBqelbDst9-bHai607XcagxOlOI/view?usp=drivesdk"
     },
     {
-      id: 3,
-      name: "Codepen Clone",
-      imageSrc: codepen,
-      techs: "React Js, JavaScript",
-      github: "https://github.com/Koushik-16/Codepen-Clone",
-      link : "https://koushik-16.github.io/Codepen-Clone/"
-    },
-    {
-      id: 4,
+      id: 6,
       name: "News Application",
       imageSrc: news,
       techs: "Android Studio, Java",
       github: "https://github.com/Koushik-16/NewsApp",
       link : "https://drive.google.com/file/d/1utrs_mUUmHkWO5zp_ajkP4039xEy0Bsi/view?usp=drivesdk"
     },
-    {
-      id: 5,
-      name: "Keeper",
-      imageSrc: keeper,
-      techs: "React Js , JavaScript",
-      github: "https://github.com/Koushik-16/Keeper",
-      link : "https://koushik-16.github.io/Keeper/"
-    }
+
+    
   ];
 
 

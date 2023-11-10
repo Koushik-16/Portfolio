@@ -25,8 +25,14 @@ const Home = () => {
 
     <div className="w-full h-420 flex flex-col items-center justify-center ">
       <p className="text-lg text-textBase text-center">
-        Hi , I am Koushik Dandapat. I am a 3rd year UG student at Ramkrishna Mahato Government Engineering College. I have worked on React.js , MongoDb , Node.js , Android Studio and Firebase.  I have developed 3 websites and 2 android applicatons which are given below. I am also active at Leetcode, Codechef, and Codeforces.
-
+      I am a 4th year UG student at Ramkrishna Mahato Government Engineering College.
+Currently I am learning Web Development (intermediate) using React.js and Node.js .
+I have developed a online video blogging website and a real time chat application using react.js and firebase.
+I am also active at Leetcode, Codechef, and Codeforces.
+I have solved 1000+ questions on Leetcode and participated in 29 contests (rating - 1916)
+I have attended 21 contests on Codechef (rating - 1750, 3 star).
+I have participated in 12 contests on CodeForces ( rating - 1229, pupil). 
+I also have knowledge about OOPS and OS.
       </p>
 
       <div className='flex flex-row  gap-7 my-5'>
